@@ -1,0 +1,40 @@
+.product-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    gap: 10px
+}
+
+.product-card{
+    border:1px gray solid;
+    text-align:center;
+    width:300px;
+    height:350px
+
+}
+
+.product-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pagination-container{
+   margin:10px;
+   display: flex;
+   align-items: center;
+   gap:6px;
+}
+
+.page-no{
+  border:1px gainsboro solid;
+  padding: 6px;
+  text-align: center;
+  margin: 4px;
+  cursor:pointer
+}
+.farward-btn,.backward-btn{
+    cursor: pointer;
+}
+.page-no.active{
+    border: 1px violet solid;
+}
