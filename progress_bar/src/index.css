@@ -1,0 +1,24 @@
+.outer-div{
+   border:1px black solid;
+   border-radius: 10px;
+   overflow: hidden;
+
+}
+
+.inner-div{
+    background-color: green;
+    text-align: right;
+    transition-timing-function: ease-in;
+    transition-property: all;
+    transition-duration: 1s;
+    /* animation-name: progressBar;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+         */
+}
+
+/* @keyframes progressBar {
+   from{
+      width: 0px;
+   }
+} */
