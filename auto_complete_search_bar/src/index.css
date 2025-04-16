@@ -1,0 +1,22 @@
+
+.search-box{
+    width:75%;
+    margin:auto;
+    padding:5px;
+}
+.result-container{
+    width: 75%;
+    padding-right:10px;
+    border:1px black solid;
+    max-height:500px;
+    overflow-y:auto;
+}
+.result{
+  display: block;
+  margin-block:3px;
+  padding:4px
+
+}
+.result:hover{
+    background-color:gray;
+}
