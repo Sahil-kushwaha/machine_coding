@@ -1,0 +1,32 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .form-container {
+    margin: 10px;
+  }
+  .tab-container {
+    display: flex;
+  }
+  .form-tab {
+    border: 1px black solid;
+    padding: 4px;
+    cursor: pointer;
+  }
+  .form-tab-body {
+    border: 2px black solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 600px;
+  }
+   button{
+     padding: 10px;
+  }
+  
+  .error-box{
+    color: red;
+    font-size: 12px;
+    display: block;
+  }
