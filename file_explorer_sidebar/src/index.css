@@ -1,0 +1,13 @@
+
+.explorer-container{
+    display: flex;
+    flex-direction:column;
+    gap:8px;
+    margin-left:20px;
+}
+
+
+.node{
+    /* border-left: 1px gray solid; */
+    cursor: pointer;
+}
