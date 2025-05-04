@@ -1,0 +1,105 @@
+[{
+    "id": "root",
+    "label": "All Categories",
+    
+    "children": [
+      {
+        "id": "electronics",
+        "label": "Electronics",
+        
+        "children": [
+          {
+            "id": "computers",
+            "label": "Computers",
+            "children": [
+              {
+                "id": "laptops",
+                "label": "Laptops"
+              },
+              {
+                "id": "desktops",
+                "label": "Desktops"
+              },
+              {
+                "id": "components",
+                "label": "Components",
+                    "children": [
+                  {
+                    "id": "processors",
+                    "label": "Processors",
+                    "checked": false
+                  },
+                  {
+                    "id": "graphics_cards",
+                    "label": "Graphics Cards",
+                    "checked": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "phones",
+            "label": "Phones & Accessories",
+            "children": [
+              {
+                "id": "smartphones",
+                "label": "Smartphones"
+              },
+              {
+                "id": "cases",
+                "label": "Cases & Covers"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "home",
+        "label": "Home & Kitchen",
+        
+        "children": [
+          {
+            "id": "furniture",
+            "label": "Furniture",
+            "checked": false
+          },
+          {
+            "id": "appliances",
+            "label": "Appliances",
+            "children": [
+              {
+                "id": "large_appliances",
+                "label": "Large Appliances"
+              },
+              {
+                "id": "small_appliances",
+                "label": "Small Appliances"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clothing",
+        "label": "Clothing",
+        
+        "children": [
+          {
+            "id": "mens",
+            "label": "Men's Clothing",
+            "children": [
+              {
+                "id": "shirts",
+                "label": "Shirts"
+              },
+              {
+                "id": "pants",
+                "label": "Pants"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }]
