@@ -14,9 +14,10 @@ function ChipsInput() {
    
   }
 
-  const handleDelete = (item) => {
+  const handleDelete = (item,index) => {
     setChips((prev) => {
-      const temp = prev.filter((value)=>value!=item)
+       prev.splice(index,1);
+       const temp = [...prev]
       return temp;
     })
   }
@@ -40,7 +41,7 @@ function ChipsInput() {
             <span
               role="button"
               className="del-btn"
-              onClick={() => handleDelete(item)}
+              onClick={() => handleDelete(item,index)}
             > X
             </span>
           </span>
